@@ -18,7 +18,7 @@ $.ajax({
 });
 
 // Creating columns
-function setupColumns(column) {
+function setupColumns(columns) {
     columns.forEach(function (column) {
 		var col = new Column(column.id, column.name);
         board.createColumn(col);
